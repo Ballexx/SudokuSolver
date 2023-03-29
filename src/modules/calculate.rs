@@ -36,7 +36,6 @@ pub fn calculate(board: &mut[[i32;9];9]) -> bool{
             }
 
             board[i as usize][j as usize] = 0;
-
         }
     }
     return false;
